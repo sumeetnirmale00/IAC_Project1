@@ -1,0 +1,7 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore S3 backend config (if using credentials)
+*.terraform/
+.terraform.lock.hcl
